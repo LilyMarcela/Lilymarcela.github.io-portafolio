@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-bootstrap-social.css
+bootstrap-social.css 
 
 
 body {
     font-family: 'Raleway', sans-serif !important;
- 
 }
 
 .navbar {
     margin: 0px;
-        font-family: 'Raleway', sans-serif !important;
-    }
+    font-family: 'Raleway', sans-serif !important;
+}
 
 header {
     padding: 50px;
@@ -28,6 +27,7 @@ header {
 
 #aboutme h3 {
     padding: 50px;
+
 }
 #aboutme p {
     text-align: justify;
@@ -38,14 +38,9 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-
-
-section #Projects img{
-    width: 30%;
-    padding-bottom: 50px;
-
+section {
+  padding: 6rem 0;
 }
-
 footer {
     background-color: #161314;
     padding: 50px;
@@ -62,4 +57,40 @@ footer div p, i{
 }
 
 
+
+
+.portfolio {
+  margin-bottom: -15px;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(24, 188, 156, 0.9);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+
+@media (min-width: 576px) {
+  .portfolio {
+    margin-bottom: -30px;
+  }
+ 
+ @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 
