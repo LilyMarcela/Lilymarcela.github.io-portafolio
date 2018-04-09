@@ -42,7 +42,11 @@ section {
   padding: 6rem 0;
 }
 .portfolio {
-  margin-bottom: -15px;
+  margin-bottom: 100px;
+  padding: 10rem;
+}
+.portfolio h2 {
+    padding: 5rem;
 }
 
 .portfolio .portfolio-item {
