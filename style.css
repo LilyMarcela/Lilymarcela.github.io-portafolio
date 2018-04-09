@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+bootstrap-social.css
+
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+ 
+}
+
+.navbar {
+    margin: 0px;
+        font-family: 'Raleway', sans-serif !important;
+    }
+
+header {
+    padding: 50px;
+    background-color: #121212;
+    font-family: 'Raleway', sans-serif !important;
+
+}
+
+#aboutme {
+    background-color: #F1F1F1;
+    padding: 100px;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#aboutme h3 {
+    padding: 50px;
+}
+#aboutme p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#aboutme div img {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+section #Projects img{
+    width: 30%;
+    padding-bottom: 50px;
+
+}
+
+footer {
+    background-color: #161314;
+    padding: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+footer div iframe {
+    margin: 30px;
+}
+
+footer div p, i{
+    margin: 10px;
+}
+
+
+
